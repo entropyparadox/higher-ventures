@@ -1,0 +1,5 @@
+import { TypeOrmEntity } from '../../../common/typeorm.entity';
+import { Entity } from 'typeorm';
+
+@Entity()
+export class {{ singularName }} extends TypeOrmEntity {}

@@ -1,0 +1,62 @@
+import { Injectable } from '@nestjs/common';
+import { InjectRepository } from '@nestjs/typeorm';
+import { plainToClass } from 'class-transformer';
+import { ResourceNotFoundException } from '../../common/errors';
+import { Create{{ singularName }}Dto } from './dto/create-{{ singularFileName }}.dto';
+import { Update{{ singularName }}Dto } from './dto/update-{{ singularFileName }}.dto';
+import { {{ pluralName }}Repository } from './{{ pluralFileName }}.repository';
+import { Paginated, PaginationDto } from '../../common/packs/pagination';
+import { {{ singularName }} } from './entities/{{ singularFileName }}.entity';
+
+@Injectable()
+export class {{ pluralName }}Service {
+  constructor(
+    @InjectRepository({{ pluralName }}Repository)
+    private {{ singularCamel }}Repository: {{ pluralName }}Repository,
+  ) {}
+
+  async findAll(dto: PaginationDto): Promise<Paginated<{{ singularName }}>> {
+    const [{{ pluralCamel }}, count] = await this.{{ singularCamel }}Repository.findAndCount({
+      skip: dto.offset,
+      take: dto.limit,
+    });
+
+    return new Paginated<{{ singularName }}>(
+      plainToClass({{ singularName }}, {{ pluralCamel }}),
+      count,
+      dto.page,
+      dto.itemsPerPage,
+    );
+  }
+
+  async findOne(options): Promise<{{ singularName }}> {
+    return this.get{{ singularName }}(options);
+  }
+
+  async create(create{{ singularName }}Dto: Create{{ singularName }}Dto): Promise<{{ singularName }}> {
+    return this.{{ singularCamel }}Repository.save(create{{ singularName }}Dto);
+  }
+
+  async update(id: number, update{{ singularName }}Dto: Update{{ singularName }}Dto): Promise<{{ singularName }}> {
+    const {{ singularCamel }} = await this.get{{ singularName }}({ id });
+    this.{{ singularCamel }}Repository.merge({{ singularCamel }}, update{{ singularName }}Dto);
+    return this.{{ singularCamel }}Repository.save({{ singularCamel }});
+  }
+
+  async remove(id: number): Promise<{{ singularName }}> {
+    const {{ singularCamel }} = await this.get{{ singularName }}({ id });
+    return this.{{ singularCamel }}Repository.remove({{ singularCamel }});
+  }
+
+  // Private methods below
+
+  private async get{{ singularName }}(options): Promise<{{ singularName }}> {
+    const {{ singularCamel }} = await this.{{ singularCamel }}Repository.findOne(options);
+
+    if (!{{ singularCamel }}) {
+      throw new ResourceNotFoundException();
+    }
+
+    return {{ singularCamel }};
+  }
+}

@@ -1,0 +1,24 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+if sh -c ": >/dev/tty" >/dev/null 2>/dev/null; then
+  # Allows us to read user input below, assigns stdin to keyboard
+  exec < /dev/tty
+
+  ## DTO Generating
+  yarn gen:dto
+  gitstatus=$(git status)
+
+  if [[ $gitstatus =~ "generated/" ]]
+  then
+    echo "자동생성된 파일이 있습니다. 푸쉬를 계속 진행하시겠습니까? (Y/n)"
+    read input
+
+    if [[ $input = 'N' || $input = 'n' ]]
+    then
+      exit 1;
+    fi
+  else
+    echo "자동생성된 파일이 없습니다. 푸쉬를 이어서 진행합니다."
+  fi
+fi

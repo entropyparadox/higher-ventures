@@ -1,0 +1,80 @@
+import {
+  Controller,
+  Get,
+  Post,
+  Patch,
+  Delete,
+  Body,
+  Query,
+  Param,
+  UsePipes,
+  ParseIntPipe,
+  ValidationPipe,
+} from '@nestjs/common';
+import {
+  ApiOperation,
+  ApiBadRequestResponse,
+  ApiNotFoundResponse,
+} from '@nestjs/swagger';
+import { ErrorResponse } from '../../common/errors/exception.filter';
+import { Public } from '../../auth/public.decorator';
+import {
+  PaginationDto,
+  ApiPaginatedResponse,
+} from '../../common/packs/pagination';
+import { {{ singularName }} } from './entities/{{ singularFileName }}.entity';
+import { {{ pluralName }}Service } from './{{ pluralFileName }}.service';
+import { Create{{ singularName }}Dto } from './dto/create-{{ singularFileName }}.dto';
+import { Update{{ singularName }}Dto } from './dto/update-{{ singularFileName }}.dto';
+import TypePipe from '../../common/pipes/type.pipe';
+
+@Controller('{{ pluralFileName }}')
+export class {{ pluralName }}Controller {
+  constructor(private readonly {{ pluralCamel }}Service: {{ pluralName }}Service) {}
+
+  @ApiOperation({ summary: '{{ singularName }} 조회', tags: ['{{ pluralFileName }}'] })
+  @Public()
+  @Get()
+  @ApiPaginatedResponse({{ singularName }})
+  findAll(@Query(TypePipe) query: PaginationDto) {
+    return this.{{ pluralCamel }}Service.findAll(query);
+  }
+
+  @ApiOperation({ summary: '{{ singularName }} 상세', tags: ['{{ pluralFileName }}'] })
+  @Public()
+  @Get(':id')
+  @ApiNotFoundResponse({ type: ErrorResponse })
+  findOne(@Param('id', ParseIntPipe) id: number) {
+    return this.{{ pluralCamel }}Service.findOne({ id });
+  }
+
+  @ApiOperation({ summary: '{{ singularName }} 생성', tags: ['{{ pluralFileName }}'] })
+  @Public()
+  @Post()
+  @UsePipes(ValidationPipe)
+  @ApiBadRequestResponse({ type: ErrorResponse })
+  create(@Body() create{{ singularName }}Dto: Create{{ singularName }}Dto) {
+    return this.{{ pluralCamel }}Service.create(create{{ singularName }}Dto);
+  }
+
+  @ApiOperation({ summary: '{{ singularName }} 수정', tags: ['{{ pluralFileName }}'] })
+  @Public()
+  @Patch(':id')
+  @UsePipes(ValidationPipe)
+  @ApiNotFoundResponse({ type: ErrorResponse })
+  @ApiBadRequestResponse({ type: ErrorResponse })
+  update(
+    @Param('id', ParseIntPipe) id: number,
+    @Body() update{{ singularName }}Dto: Update{{ singularName }}Dto,
+  ) {
+    return this.{{ pluralCamel }}Service.update(id, update{{ singularName }}Dto);
+  }
+
+  @ApiOperation({ summary: '{{ singularName }} 삭제', tags: ['{{ pluralFileName }}'] })
+  @Public()
+  @Delete(':id')
+  @ApiNotFoundResponse({ type: ErrorResponse })
+  remove(@Param('id', ParseIntPipe) id: number) {
+    return this.{{ pluralCamel }}Service.remove(id);
+  }
+}

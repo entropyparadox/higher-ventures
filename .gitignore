@@ -1,0 +1,7 @@
+.DS_Store
+.idea
+ignored/*
+!ignored/.keep
+node_modules/
+.eslintcache
+

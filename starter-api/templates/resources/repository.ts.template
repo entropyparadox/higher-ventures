@@ -1,0 +1,5 @@
+import { EntityRepository, Repository } from 'typeorm';
+import { {{ singularName }} } from './entities/{{ singularFileName }}.entity';
+
+@EntityRepository({{ singularName }})
+export class {{ pluralName }}Repository extends Repository<{{ singularName }}> {}

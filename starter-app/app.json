@@ -1,0 +1,11 @@
+{
+  "name": "starter",
+  "displayName": "starter",
+  "extra": {
+    "eas": {
+      "projectId": "6e23cc09-3a37-4aa6-b3e2-694bcc1ed47a"
+    }
+  },
+  "owner": "help-martian",
+  "slug": "ep"
+}
