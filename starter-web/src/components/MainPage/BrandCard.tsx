@@ -19,18 +19,12 @@ export const BrandCard: FC<BrandCardProps> = ({
       className="z-10 my-8 w-full cursor-pointer space-y-5"
       onClick={onClick}
     >
-      <div className="flex h-[300px] items-center justify-center bg-black hover:bg-brand-1">
-        <div className="relative p-20">
-          <Image
-            src={brandImg}
-            alt=""
-            layout="responsive"
-            objectFit="cover"
-            className="w-full"
-          />
+      <div className="flex h-[300px] items-center justify-center bg-black transition-all duration-300 hover:bg-brand-1">
+        <div className="p-20">
+          <Image src={brandImg} alt="" className="w-full" />
         </div>
       </div>
-      <div className="space-y-2">
+      <div className="space-y-1">
         <p className="text-[12px] font-bold text-brand-1 md:text-[13px]">
           {title}
         </p>

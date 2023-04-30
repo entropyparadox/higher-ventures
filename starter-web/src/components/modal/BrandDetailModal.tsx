@@ -12,37 +12,29 @@ interface ModalContents {
   url: string;
 }
 
-interface BrandDetailProps {
+interface BrandDetailModalProps {
   open: boolean;
   onClose: () => void;
   modalContents: ModalContents;
 }
 
-export const BrandDetail: FC<BrandDetailProps> = ({
+export const BrandDetailModal: FC<BrandDetailModalProps> = ({
   open,
   onClose,
   modalContents,
 }) => {
   return (
     <AnimationLayout open={open} onClose={onClose}>
-      <div className="relative pt-60 md:pt-72">
-        <div className="h-screen w-screen transform bg-black/80 p-8 pt-8 text-left">
+      <div className="relative h-screen w-screen overflow-hidden pt-28 md:pt-32">
+        <div className="flex h-full transform items-center justify-center bg-black/80 text-left">
           <Icon.X
-            className="absolute right-8 cursor-pointer stroke-white"
+            className="absolute right-8 top-8 cursor-pointer stroke-white"
             onClick={onClose}
           />
 
-          <div className="m-auto flex max-w-screen-xl flex-col space-x-0 space-y-10 pt-24 lg:flex-row lg:items-center lg:space-y-0 lg:space-x-24 lg:pt-52">
-            <div className="flex h-[250px] w-[250px] items-center justify-center rounded-lg bg-white md:h-[400px] md:w-[400px]">
-              <div className="relative px-12">
-                <Image
-                  src={modalContents.modalImg}
-                  alt=""
-                  layout="responsive"
-                  objectFit="cover"
-                  className="w-full"
-                />
-              </div>
+          <div className="flex flex-col space-x-0 space-y-10 px-5 lg:flex-row lg:items-center lg:space-y-0 lg:space-x-24">
+            <div className="flex h-[250px] w-[250px] items-center justify-center rounded-lg bg-white px-0 md:h-[400px] md:w-[400px] md:px-12">
+              <Image src={modalContents.modalImg} alt="" className="w-full" />
             </div>
 
             <div className="space-y-12 md:flex-1">
@@ -67,7 +59,10 @@ export const BrandDetail: FC<BrandDetailProps> = ({
                 <p className="text-[14px] font-semibold text-[#7AA5C3] md:text-[16px]">
                   Website
                 </p>
-                <p className="cursor-pointer text-[18px] font-semibold text-white underline md:text-[24px]">
+                <p
+                  className="cursor-pointer whitespace-pre-wrap text-[18px] font-semibold text-white underline md:text-[24px]"
+                  onClick={() => window.open(modalContents.url)}
+                >
                   {modalContents.url}
                 </p>
               </div>

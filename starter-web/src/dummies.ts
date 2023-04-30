@@ -146,7 +146,7 @@ export const BRAND_CARD_DUMMY = [
     subTitle: 'Analytics & Software',
     contents:
       'Candy Plus is a prominent camera filter application with over 300 million downloads.',
-    url: 'https://apps.apple.com/kr/app/%EC%BA%94%EB%94%94%ED%94%8C%EB%9F%AC%EC%8A%A4-%EC%85%80%EC%B9%B4-%EB%B7%B0%ED%8B%B0-%EC%B9%B4%EB%A9%94%EB%9D%BC/id1589209843',
+    url: `https://apps.apple.com/kr/app/\n%EC%BA%94%EB%94%94%ED%94%8C%EB\n%9F%AC%EC%8A%A4-%EC%85%80%EC%B9%B4-%EB%B7\n%B0%ED%8B%B0-%EC%B9%B4%EB%A\n9%94%EB%9D%BC/id1589209843`,
   },
   {
     id: 10,
