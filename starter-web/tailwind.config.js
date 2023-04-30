@@ -18,7 +18,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        'brand-1': '#7950F2',
+        'brand-1': '#172C53',
         // error: defaultTheme.colors.red[400],
         littleblack: 'rgba(0, 0, 0, 0.5)',
         gray: {
