@@ -34,7 +34,7 @@ function MyApp({ Component, pageProps }: Props) {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="theme-color" content="#000000" />
           <meta name="description" content="Your guide on the startup ride" />
-          <meta property="og:image" content="/title.png" />
+          <meta property="og:image" content="public/assets/svg/title.png" />
           <meta property="og:description" content="Your guide on the startup ride">
           <link rel="apple-touch-icon" href="/logo192.png" />
           <link rel="manifest" href="/manifest.json" />
