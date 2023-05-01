@@ -9,8 +9,13 @@ const nextConfig = {
       'picsum.photos',
       's3.ap-northeast-2.amazonaws.com',
     ],
+    unoptimized: true,
   },
+  assetPrefix: '.',
+  output: 'export',
+  distDir: 'dist',
   reactStrictMode: true,
+  trailingSlash: true,
   swcMinify: true,
 
   webpack(config) {
