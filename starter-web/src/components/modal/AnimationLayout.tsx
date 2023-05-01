@@ -21,7 +21,7 @@ export const AnimationLayout: React.FC<AnimationLayoutProps> = ({
         className="fixed inset-0 z-50 grid place-content-center overflow-y-auto"
         onClose={onClose}
       >
-        <div className="flex max-h-screen w-full items-center justify-center px-4 text-center">
+        <div className="flex max-h-screen w-full items-center justify-center text-center">
           <Transition.Child
             as={Fragment}
             enter="ease-out duration-300"

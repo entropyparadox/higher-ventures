@@ -25,15 +25,15 @@ export const BrandDetailModal: FC<BrandDetailModalProps> = ({
 }) => {
   return (
     <AnimationLayout open={open} onClose={onClose}>
-      <div className="relative h-screen w-screen overflow-hidden pt-28 md:pt-32">
-        <div className="flex h-full transform items-center justify-center bg-black/80 text-left">
+      <div className="relative h-screen w-screen overflow-hidden">
+        <div className="flex h-full w-full transform items-center justify-center bg-black/90 text-left">
           <Icon.X
             className="absolute right-8 top-8 cursor-pointer stroke-white"
             onClick={onClose}
           />
 
-          <div className="flex flex-col space-x-0 space-y-10 px-5 lg:flex-row lg:items-center lg:space-y-0 lg:space-x-24">
-            <div className="flex h-[250px] w-[250px] items-center justify-center rounded-lg bg-white px-0 md:h-[400px] md:w-[400px] md:px-12">
+          <div className="flex max-w-screen-2xl flex-col space-x-0 space-y-10 px-5 lg:flex-row lg:items-center lg:space-y-0 lg:space-x-24">
+            <div className="flex h-[250px] w-[250px] items-center justify-center rounded-lg bg-white p-12 md:h-[400px] md:w-[400px] md:p-20">
               <Image src={modalContents.modalImg} alt="" className="w-full" />
             </div>
 
