@@ -29,11 +29,11 @@ export const BrandDetailModal: FC<BrandDetailModalProps> = ({
       <div className="relative h-screen w-screen overflow-hidden">
         <div className="flex h-full w-full transform items-center justify-center bg-black/90 text-left">
           <Icon.X
-            className="absolute right-5 top-5 z-30 cursor-pointer stroke-white md:top-8 md:right-8"
+            className="absolute right-14 top-14 z-30 cursor-pointer stroke-white md:top-8 md:right-8"
             onClick={onClose}
           />
 
-          <div className="mt-24 flex max-w-screen-xl flex-col space-x-0 space-y-10 px-5 md:mt-0 lg:flex-row lg:items-center lg:space-y-0 lg:space-x-24">
+          <div className="mt-24 flex max-w-screen-xl flex-col space-x-0 space-y-10 px-5 md:mt-10 lg:flex-row lg:items-center lg:space-y-0 lg:space-x-24">
             <div className="flex h-[250px] w-[250px] items-center justify-center rounded-lg bg-white p-12 md:h-[400px] md:w-[400px] md:p-20">
               <Image src={modalContents.modalImg} alt="" className="w-full" />
             </div>
