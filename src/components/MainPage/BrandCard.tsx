@@ -30,7 +30,7 @@ export const BrandCard: FC<BrandCardProps> = ({
         </motion.div>
       </div>
       <div className="space-y-1">
-        <p className="text-[12px] font-bold text-brand-1 md:text-[13px]">
+        <p className="text-[13px] font-bold text-brand-1 md:text-[16px]">
           {title}
         </p>
         <p className="text-[13px] text-brand-1 md:text-[14px]">{subTitle}</p>

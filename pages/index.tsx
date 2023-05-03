@@ -21,7 +21,7 @@ export default function HomePage() {
       <div className="mx-auto w-full max-w-screen-2xl px-5">
         <BgImg className="fixed -top-[300px] -right-4 -z-10 w-2/3 md:-top-4 md:-right-[400px] md:w-full" />
 
-        <div className="flex h-28 flex-col justify-center space-y-4 md:space-y-5">
+        <div className="flex flex-col justify-center space-y-4 py-[2rem] md:space-y-5">
           <LogoSVG className="h-fit w-64 md:w-80" />
           <SubLogoSVG className="h-fit w-64 pb-2 md:w-80" />
         </div>

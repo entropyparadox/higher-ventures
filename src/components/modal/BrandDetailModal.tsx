@@ -10,6 +10,7 @@ interface ModalContents {
   subTitle: string;
   contents: string;
   url: string;
+  website: string;
 }
 
 interface BrandDetailModalProps {
@@ -28,11 +29,11 @@ export const BrandDetailModal: FC<BrandDetailModalProps> = ({
       <div className="relative h-screen w-screen overflow-hidden">
         <div className="flex h-full w-full transform items-center justify-center bg-black/90 text-left">
           <Icon.X
-            className="absolute right-8 top-8 cursor-pointer stroke-white"
+            className="absolute right-5 top-5 z-30 cursor-pointer stroke-white md:top-8 md:right-8"
             onClick={onClose}
           />
 
-          <div className="flex max-w-screen-2xl flex-col space-x-0 space-y-10 px-5 lg:flex-row lg:items-center lg:space-y-0 lg:space-x-24">
+          <div className="mt-24 flex max-w-screen-xl flex-col space-x-0 space-y-10 px-5 md:mt-0 lg:flex-row lg:items-center lg:space-y-0 lg:space-x-24">
             <div className="flex h-[250px] w-[250px] items-center justify-center rounded-lg bg-white p-12 md:h-[400px] md:w-[400px] md:p-20">
               <Image src={modalContents.modalImg} alt="" className="w-full" />
             </div>
@@ -60,10 +61,10 @@ export const BrandDetailModal: FC<BrandDetailModalProps> = ({
                   Website
                 </p>
                 <p
-                  className="cursor-pointer whitespace-pre-wrap text-[18px] font-semibold text-white underline md:text-[24px]"
+                  className="cursor-pointer text-[18px] font-semibold text-white underline md:text-[24px]"
                   onClick={() => window.open(modalContents.url)}
                 >
-                  {modalContents.url}
+                  {modalContents.website}
                 </p>
               </div>
             </div>

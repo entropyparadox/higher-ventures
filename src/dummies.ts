@@ -67,6 +67,7 @@ export const BRAND_CARD_DUMMY = [
     contents:
       'Contents Technologies is an opportunistic company building at the intersection of content IP, finance, and technology, systematically innovating the content industry.',
     url: 'http://contentstech.com/',
+    website: 'http://contentstech.com/',
   },
   {
     id: 2,
@@ -77,6 +78,7 @@ export const BRAND_CARD_DUMMY = [
     contents:
       'OILNOW   offers   money-saving   driving   information   such   as   gas   price   finders,   auto insurance comparisons, and test-driving opportunities, and aims to become a next-generation value chain company for electric vehicles',
     url: 'http://www.oilnow.co.kr/',
+    website: 'http://www.oilnow.co.kr/',
   },
   {
     id: 3,
@@ -87,6 +89,7 @@ export const BRAND_CARD_DUMMY = [
     contents:
       'Spendit offers a corporate card and fully automated expense management solution for businesses.',
     url: 'http://www.spendit.kr/',
+    website: 'http://www.spendit.kr/',
   },
   {
     id: 4,
@@ -97,6 +100,7 @@ export const BRAND_CARD_DUMMY = [
     contents:
       'Tablero is the most reliable partner for seamless restaurant operations, from reservations to order and payment.',
     url: 'https://tablero.co.kr/',
+    website: 'https://tablero.co.kr/',
   },
   {
     id: 5,
@@ -107,6 +111,7 @@ export const BRAND_CARD_DUMMY = [
     contents:
       'Bacon Realism offers additive-free bacon as a versatile and flavorful ingredient for busy individuals, with flagship stores opening soon.',
     url: 'https://www.baconrealism.com/',
+    website: 'https://www.baconrealism.com/',
   },
   {
     id: 6,
@@ -117,6 +122,7 @@ export const BRAND_CARD_DUMMY = [
     contents:
       'Team Positive Zero is an offline space-based contemporary brand IP developer with hit brands such as Platz, Munchies and Goodies, and Positive Zero Lounge.',
     url: 'https://platz.kr/',
+    website: 'https://platz.kr/',
   },
   {
     id: 7,
@@ -127,6 +133,7 @@ export const BRAND_CARD_DUMMY = [
     contents:
       'Gold Plate is the leading specialized frozen convenience food company in Korea.',
     url: 'http://goldplate.co.kr/',
+    website: 'http://goldplate.co.kr/',
   },
   {
     id: 8,
@@ -137,6 +144,7 @@ export const BRAND_CARD_DUMMY = [
     contents:
       'Daily Vegan specializes in plant-based chicken R&D and has successfully developed a vegan alternative with similar texture and nutritional value to real chicken.',
     url: 'https://dailyvegan.co.kr/',
+    website: 'https://dailyvegan.co.kr/',
   },
   {
     id: 9,
@@ -146,7 +154,8 @@ export const BRAND_CARD_DUMMY = [
     subTitle: 'Analytics & Software',
     contents:
       'Candy Plus is a prominent camera filter application with over 300 million downloads.',
-    url: `https://apps.apple.com/kr/app/\n%EC%BA%94%EB%94%94%ED%94%8C%EB\n%9F%AC%EC%8A%A4-%EC%85%80%EC%B9%B4-%EB%B7\n%B0%ED%8B%B0-%EC%B9%B4%EB%A\n9%94%EB%9D%BC/id1589209843`,
+    url: 'https://apps.apple.com/kr/app/\n%EC%BA%94%EB%94%94%ED%94%8C%EB\n%9F%AC%EC%8A%A4-%EC%85%80%EC%B9%B4-%EB%B7\n%B0%ED%8B%B0-%EC%B9%B4%EB%A\n9%94%EB%9D%BC/id1589209843',
+    website: 'IOS APPSTORE',
   },
   {
     id: 10,
@@ -157,6 +166,7 @@ export const BRAND_CARD_DUMMY = [
     contents:
       'Fact Block is a blockchain accelerator and community builder, known for hosting Korea Blockchain Week.',
     url: 'https://factblock.com/',
+    website: 'https://factblock.com/',
   },
   {
     id: 11,
@@ -167,6 +177,7 @@ export const BRAND_CARD_DUMMY = [
     contents:
       'Quantrack stands out as the sole provider of AI-driven data analytics solutions for stock trends and analysis reports.',
     url: 'https://quantrack.hoztec.com/',
+    website: 'https://quantrack.hoztec.com/',
   },
   {
     id: 12,
@@ -177,6 +188,7 @@ export const BRAND_CARD_DUMMY = [
     contents:
       'Aiden Lab utilizes a data-gathering AI engine for influencer marketing, providing brands with optimized analysis data.',
     url: 'https://www.aidenlab.io/',
+    website: 'https://www.aidenlab.io/',
   },
   {
     id: 13,
@@ -187,6 +199,7 @@ export const BRAND_CARD_DUMMY = [
     contents:
       'Mapia Company is Asias No.1 music content distribution platform.',
     url: 'https://www.mapiacompany.com/',
+    website: 'https://www.mapiacompany.com/',
   },
   {
     id: 14,
@@ -197,6 +210,7 @@ export const BRAND_CARD_DUMMY = [
     contents:
       'Mosiler is the leading driving companion service for transportation.',
     url: 'http://www.mosiler.com/',
+    website: 'http://www.mosiler.com/',
   },
   {
     id: 15,
@@ -207,5 +221,6 @@ export const BRAND_CARD_DUMMY = [
     contents:
       'Mozaqi Home is the worlds easiest home furnishing platform, utilizing AI curation and styling.',
     url: 'https://mozaqihome.com/',
+    website: 'https://mozaqihome.com/',
   },
 ];
