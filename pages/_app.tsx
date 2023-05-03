@@ -35,7 +35,7 @@ function MyApp({ Component, pageProps }: Props) {
           <meta name="theme-color" content="#000000" />
           <meta name="description" content="Your guide on the startup ride" />
           <meta property="og:image" content="public/assets/svg/title.png" />
-          <meta property="og:description" content="Your guide on the startup ride">
+          <meta property="og:description" content="Your guide on the startup ride" />
           <link rel="apple-touch-icon" href="/logo192.png" />
           <link rel="manifest" href="/manifest.json" />
           <title>HIGHER VENTURES</title>
