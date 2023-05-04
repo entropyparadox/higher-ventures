@@ -65,7 +65,7 @@ export const BRAND_CARD_DUMMY = [
     title: 'Contents Technologies',
     subTitle: 'Content and IP',
     contents:
-      'Contents Technologies is an opportunistic company building at the intersection of content IP, finance, and technology, systematically innovating the content industry.',
+      'Contents Technologies (CT) is a leading content company that invests in IPs and technology-oriented businesses within the content value chain. They manage Asias largest music IP funds and are known for their innovative approach to IP investment.',
     url: 'http://contentstech.com/',
     website: 'http://contentstech.com/',
   },
@@ -87,7 +87,7 @@ export const BRAND_CARD_DUMMY = [
     title: 'spendit',
     subTitle: 'Analytics & Software',
     contents:
-      'Spendit offers a corporate card and fully automated expense management solution for businesses.',
+      'Spendit is a top provider of corporate cards and automated expense management solutions for businesses. Their platform is trusted by leading companies across all industries to automate and streamline back-office functions.',
     url: 'http://www.spendit.kr/',
     website: 'http://www.spendit.kr/',
   },
@@ -98,7 +98,7 @@ export const BRAND_CARD_DUMMY = [
     title: 'Tablero',
     subTitle: 'Analytics & Software',
     contents:
-      'Tablero is the most reliable partner for seamless restaurant operations, from reservations to order and payment.',
+      'Tablero offers a seamless dining experience for customers at restaurants, allowing them to order and pay via their app by scanning a QR code on the table.',
     url: 'https://tablero.co.kr/',
     website: 'https://tablero.co.kr/',
   },
@@ -109,7 +109,7 @@ export const BRAND_CARD_DUMMY = [
     title: 'Bacon Realism',
     subTitle: 'Food and Beverage',
     contents:
-      'Bacon Realism offers additive-free bacon as a versatile and flavorful ingredient for busy individuals, with flagship stores opening soon.',
+      'Bacon Realism is a premium bacon brand that offers high-quality, additive-free bacon in various flavors. Their natural ingredients make their bacon a healthy and flavorful ingredient for home cooks and restaurants.',
     url: 'https://www.baconrealism.com/',
     website: 'https://www.baconrealism.com/',
   },
@@ -131,7 +131,7 @@ export const BRAND_CARD_DUMMY = [
     title: 'Gold Plate',
     subTitle: 'Food and Beverage',
     contents:
-      'Gold Plate is the leading specialized frozen convenience food company in Korea.',
+      'Gold Plate is a one-stop-shop for frozen food, offering the largest variety of products. They handle everything from development to branding and logistics and have 120+ OEM networks, 10+ killer IPs, and 15+ private label brands.',
     url: 'http://goldplate.co.kr/',
     website: 'http://goldplate.co.kr/',
   },
@@ -142,7 +142,7 @@ export const BRAND_CARD_DUMMY = [
     title: 'Daily Vegan',
     subTitle: 'Food and Beverage',
     contents:
-      'Daily Vegan specializes in plant-based chicken R&D and has successfully developed a vegan alternative with similar texture and nutritional value to real chicken.',
+      'Daily Vegan specializes in plant-based chicken with a texture and nutritional value similar to real chicken, thanks to their unique R&D and technology. Their product is a healthy and delicious option for vegans and those looking to reduce their meat consumption.',
     url: 'https://dailyvegan.co.kr/',
     website: 'https://dailyvegan.co.kr/',
   },
@@ -153,7 +153,7 @@ export const BRAND_CARD_DUMMY = [
     title: 'Candy Plus',
     subTitle: 'Analytics & Software',
     contents:
-      'Candy Plus is a prominent camera filter application with over 300 million downloads.',
+      'Candy Plus is a popular camera filter application with over 300 million downloads and 40 million monthly active users worldwide. Their app offers a wide range of high-quality filters and easy-to-use interface, making it a top choice for customizing photos and videos.',
     url: 'https://apps.apple.com/kr/app/\n%EC%BA%94%EB%94%94%ED%94%8C%EB\n%9F%AC%EC%8A%A4-%EC%85%80%EC%B9%B4-%EB%B7\n%B0%ED%8B%B0-%EC%B9%B4%EB%A\n9%94%EB%9D%BC/id1589209843',
     website: 'IOS APPSTORE',
   },
@@ -164,7 +164,7 @@ export const BRAND_CARD_DUMMY = [
     title: 'Fact Block',
     subTitle: 'Web 3.0 Technology',
     contents:
-      'Fact Block is a blockchain accelerator and community builder, known for hosting Korea Blockchain Week.',
+      'Fact Block is the largest blockchain accelerator and community builder in Asia, known for their flagship event, Korea Blockchain Week, the largest and most successful blockchain conference in Asia.',
     url: 'https://factblock.com/',
     website: 'https://factblock.com/',
   },
@@ -175,7 +175,7 @@ export const BRAND_CARD_DUMMY = [
     title: 'Quantrack',
     subTitle: 'Analytics & Software',
     contents:
-      'Quantrack stands out as the sole provider of AI-driven data analytics solutions for stock trends and analysis reports.',
+      'Quantrack offers AI-driven data analytics for stock trends and analysis reports, helping investors make informed decisions. Their reliable and user-friendly platform makes them a leader in the industry.',
     url: 'https://quantrack.hoztec.com/',
     website: 'https://quantrack.hoztec.com/',
   },
@@ -186,7 +186,7 @@ export const BRAND_CARD_DUMMY = [
     title: 'Aiden Lab',
     subTitle: 'Analytics & Software',
     contents:
-      'Aiden Lab utilizes a data-gathering AI engine for influencer marketing, providing brands with optimized analysis data.',
+      'Aiden Lab provides data-driven influencer marketing solutions using an advanced data-gathering AI engine. Their platform helps brands identify the right influencers for their target audience, optimize their marketing strategies, and measure campaign impact.',
     url: 'https://www.aidenlab.io/',
     website: 'https://www.aidenlab.io/',
   },
@@ -197,7 +197,7 @@ export const BRAND_CARD_DUMMY = [
     title: 'Mapia Company',
     subTitle: 'Content and IP',
     contents:
-      'Mapia Company is Asias No.1 music content distribution platform.',
+      'Mapia Company is the largest digital sheet music platform in Far East Asia, offering the most advanced sheet music platform for digital sheet music primarily for Korea and Japan.',
     url: 'https://www.mapiacompany.com/',
     website: 'https://www.mapiacompany.com/',
   },
@@ -208,7 +208,7 @@ export const BRAND_CARD_DUMMY = [
     title: 'Mosiler',
     subTitle: 'Analytics & Software',
     contents:
-      'Mosiler is the leading driving companion service for transportation.',
+      'Mosiler is a premier driving companion service that provides transportation and other butler services on a subscription basis for high net worth individuals (HNWIs). Their subscription-based service provides a cost-effective and flexible solution for personalized and reliable transportation needs.',
     url: 'http://www.mosiler.com/',
     website: 'http://www.mosiler.com/',
   },
@@ -219,7 +219,7 @@ export const BRAND_CARD_DUMMY = [
     title: 'Mozaqi Home',
     subTitle: 'Lifestyle',
     contents:
-      'Mozaqi Home is the worlds easiest home furnishing platform, utilizing AI curation and styling.',
+      'Mozaqi is a furnishing platform that utilizes AI curation and styling to provide easy and stylish solutions for both homes and restaurants. They offer a wide range of high-quality and cost-effective private label brands, making it accessible for everyone to create their dream space.',
     url: 'https://mozaqihome.com/',
     website: 'https://mozaqihome.com/',
   },
