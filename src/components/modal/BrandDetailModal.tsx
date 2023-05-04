@@ -1,5 +1,6 @@
 import Image, { StaticImageData } from 'next/image';
 import { FC } from 'react';
+import { twMerge } from 'tailwind-merge';
 
 import { Icon } from '../common/Icon';
 import { AnimationLayout } from './AnimationLayout';
@@ -17,20 +18,27 @@ interface BrandDetailModalProps {
   open: boolean;
   onClose: () => void;
   modalContents: ModalContents;
+  className: string;
 }
 
 export const BrandDetailModal: FC<BrandDetailModalProps> = ({
   open,
   onClose,
   modalContents,
+  className,
 }) => {
   return (
     <AnimationLayout open={open} onClose={onClose}>
-      <div className="relative h-screen w-screen overflow-hidden">
+      <div
+        className={twMerge(
+          'relative h-screen w-screen overflow-hidden',
+          className
+        )}
+      >
         <div className="flex h-full w-full transform items-center justify-center bg-black/90 text-left">
           <div className="overflow-y-auto pt-10">
             <Icon.X
-              className="absolute right-12 top-12 z-30 cursor-pointer stroke-white md:top-8 md:right-8"
+              className="absolute top-10 right-10 z-30 cursor-pointer stroke-white"
               onClick={onClose}
             />
 
