@@ -18,10 +18,10 @@ export const AnimationLayout: React.FC<AnimationLayoutProps> = ({
     <Transition.Root show={open} as={Fragment}>
       <Dialog
         as="div"
-        className="fixed inset-0 z-50 grid place-content-center overflow-y-auto"
+        className="fixed inset-0 z-50 overflow-y-auto"
         onClose={onClose}
       >
-        <div className="flex h-full w-full items-center justify-center text-center">
+        <div className="flex min-h-screen w-full items-center justify-center px-4 pt-4 pb-20">
           <Transition.Child
             as={Fragment}
             enter="ease-out duration-300"
@@ -31,7 +31,7 @@ export const AnimationLayout: React.FC<AnimationLayoutProps> = ({
             leaveFrom="opacity-100"
             leaveTo="opacity-0"
           >
-            <Dialog.Overlay className="fixed inset-0 grid place-content-center bg-white bg-opacity-0 transition-opacity" />
+            <Dialog.Overlay className="fixed inset-0 bg-black/90 transition-opacity" />
           </Transition.Child>
 
           <Transition.Child
