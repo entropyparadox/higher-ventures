@@ -16,7 +16,6 @@ export default function HomePage() {
         open={isModalOpen}
         onClose={() => setIsModalOpen(false)}
         modalContents={BRAND_CARD_DUMMY[cardId]}
-        className="absolute top-0 right-0 bottom-0 left-0"
       />
 
       <div className="mx-auto w-full max-w-screen-2xl px-5">
