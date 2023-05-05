@@ -38,7 +38,7 @@ export const BrandDetailModal: FC<BrandDetailModalProps> = ({
               <Image src={modalContents.modalImg} alt="" className="w-full" />
             </div>
 
-            <div className="space-y-12">
+            <div className="space-y-12 md:flex-1">
               <div className="space-y-4">
                 <p className="text-[14px] font-semibold text-[#7AA5C3] md:text-[16px]">
                   Corporation
