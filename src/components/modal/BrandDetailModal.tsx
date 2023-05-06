@@ -33,7 +33,7 @@ export const BrandDetailModal: FC<BrandDetailModalProps> = ({
         />
 
         <div className="w-full overflow-y-auto">
-          <div className="mt-24 flex max-w-screen-xl flex-col space-x-0 space-y-10 px-5 md:mt-10 lg:flex-row lg:items-center lg:space-y-0 lg:space-x-24">
+          <div className="mt-[4rem] flex max-w-screen-xl flex-col space-x-0 space-y-10 px-5 md:mt-10 lg:flex-row lg:items-center lg:space-y-0 lg:space-x-24">
             <div className="flex h-[200px] w-full items-center justify-center rounded-lg bg-white p-24 md:h-[400px] md:w-[400px]">
               <Image src={modalContents.modalImg} alt="" className="w-full" />
             </div>
