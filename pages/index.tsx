@@ -46,6 +46,19 @@ export default function HomePage() {
           </motion.div>
         </AnimateSharedLayout>
       </div>
+
+      <div className="pt-10">
+        <div className="flex items-center justify-between bg-black py-4 px-5 text-13 text-white">
+          <div className="space-y-2 text-left">
+            <p>유한회사 하이어벤쳐스 | 대표자 : 강장윤</p>
+            <p>강남구 영동대로 517, 37층 3751호</p>
+          </div>
+          <div className="space-y-2 text-right">
+            <p>사업자 등록번호 : 497-86-02448 </p>
+            <p>Email : contact@higher-ventures.com</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
