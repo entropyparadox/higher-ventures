@@ -47,7 +47,7 @@ export default function HomePage() {
         </AnimateSharedLayout>
       </div>
 
-      <div className="pt-10">
+      <div className="pt-8">
         <div className="flex items-center justify-between bg-black py-4 px-5 text-13 text-white">
           <div className="space-y-2 text-left">
             <p>유한회사 하이어벤쳐스 | 대표자 : 강장윤</p>
