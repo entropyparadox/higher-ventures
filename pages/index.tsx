@@ -50,8 +50,8 @@ export default function HomePage() {
       <div className="pt-8">
         <div className="flex items-center justify-between bg-black py-4 px-5 text-13 text-white">
           <div className="space-y-2 text-left">
-            <p>유한회사 하이어벤쳐스 | 대표자 : 강장윤</p>
-            <p>강남구 영동대로 517, 37층 3751호</p>
+            <p>유한회사 하이어벤처스 | 대표자 : 강장윤</p>
+            <p>서울시 강남구 영동대로 517, #3751</p>
           </div>
           <div className="space-y-2 text-right">
             <p>사업자 등록번호 : 497-86-02448 </p>
