@@ -27,6 +27,10 @@ import BrandLogo14SVG from 'public/assets/svg/brand-logo14.png';
 import BrandLogoNavy14SVG from 'public/assets/svg/brand-logo14-navy.png';
 import BrandLogo15SVG from 'public/assets/svg/brand-logo15.png';
 import BrandLogoNavy15SVG from 'public/assets/svg/brand-logo15-navy.png';
+import BrandLogo16SVG from 'public/assets/svg/brand-logo16.png';
+import BrandLogoNavy16SVG from 'public/assets/svg/brand-logo16-navy.png';
+import BrandLogo17SVG from 'public/assets/svg/brand-logo17.png';
+import BrandLogoNavy17SVG from 'public/assets/svg/brand-logo17-navy.png';
 
 import { Role, User } from './types';
 
@@ -216,11 +220,33 @@ export const BRAND_CARD_DUMMY = [
     id: 15,
     brandImg: BrandLogo15SVG,
     modalImg: BrandLogoNavy15SVG,
-    title: 'Mozaqi Home',
-    subTitle: 'Lifestyle',
+    title: 'Nabita World',
+    subTitle: 'Import Plaything',
     contents:
-      'Mozaqi is a furnishing platform that utilizes AI curation and styling to provide easy and stylish solutions for both homes and restaurants. They offer a wide range of high-quality and cost-effective private label brands, making it accessible for everyone to create their dream space.',
-    url: 'https://mozaqihome.com/',
-    website: 'https://mozaqihome.com/',
+      'Nabita World is a leading distributor of premium toys from North America and Europe in Korea. With a 20-year track record, they also offer senior toys and welfare products, catering to individuals from 0 to 100 years old. Nabita World is committed to enhancing lives through quality products and exceptional service, ensuring customer satisfaction. Choose Nabita World for access to innovative toys that inspire joy and imagination.',
+    url: 'https://www.nabita.co.kr/',
+    website: 'https://www.nabita.co.kr/',
+  },
+  {
+    id: 16,
+    brandImg: BrandLogo16SVG,
+    modalImg: BrandLogoNavy16SVG,
+    title: 'Nexgen Power',
+    subTitle: 'Power Semiconductor',
+    contents:
+      'Nexgen Power is a leading global semiconductor designer and manufacturer specializing in high power technology. Established in 2019 with strong support and investments, they offer innovative solutions in SJ-MOSFET, Power Modules, IGBT, and FRD. With experienced professionals from top semiconductor companies, Nexgen Power is revolutionizing the industry. Trust in their cutting-edge solutions for the future of power technology.',
+    url: 'http://nexgenpwr.com/',
+    website: 'http://nexgenpwr.com/',
+  },
+  {
+    id: 17,
+    brandImg: BrandLogo17SVG,
+    modalImg: BrandLogoNavy17SVG,
+    title: 'Opq',
+    subTitle: 'Design and Lifestyle',
+    contents:
+      'Opq is a pioneering online platform, providing a seamless browsing and purchasing experience for heritage furniture brands. With its advanced AI-based search engine and robust data collection and processing capabilities, Opq offers users an exploratory journey into the world of timeless furniture. Discover, browse, and effortlessly buy heritage furniture with Opq.',
+    url: 'http://www.opq.ooo/',
+    website: 'http://www.opq.ooo/',
   },
 ];
