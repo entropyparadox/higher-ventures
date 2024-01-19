@@ -4,17 +4,10 @@ import BrandLogo2SVG from 'public/assets/svg/brand-logo2.png';
 import BrandLogoNavy2SVG from 'public/assets/svg/brand-logo2-navy.png';
 import BrandLogo3SVG from 'public/assets/svg/brand-logo3.png';
 import BrandLogoNavy3SVG from 'public/assets/svg/brand-logo3-navy.png';
-import BrandLogo4SVG from 'public/assets/svg/brand-logo4.png';
-import BrandLogoNavy4SVG from 'public/assets/svg/brand-logo4-navy.png';
 import BrandLogo5SVG from 'public/assets/svg/brand-logo5.png';
 import BrandLogoNavy5SVG from 'public/assets/svg/brand-logo5-navy.png';
-import BrandLogo6SVG from 'public/assets/svg/brand-logo6.png';
-import BrandLogoNavy6SVG from 'public/assets/svg/brand-logo6-navy.png';
-import BrandLogo7SVG from 'public/assets/svg/brand-logo7.png';
-import BrandLogoNavy7SVG from 'public/assets/svg/brand-logo7-navy.png';
 import BrandLogo8SVG from 'public/assets/svg/brand-logo8.png';
 import BrandLogoNavy8SVG from 'public/assets/svg/brand-logo8-navy.png';
-import BrandLogo9SVG from 'public/assets/svg/brand-logo9.png';
 import BrandLogo10SVG from 'public/assets/svg/brand-logo10.png';
 import BrandLogoNavy10SVG from 'public/assets/svg/brand-logo10-navy.png';
 import BrandLogo11SVG from 'public/assets/svg/brand-logo11.png';
@@ -23,14 +16,24 @@ import BrandLogo12SVG from 'public/assets/svg/brand-logo12.png';
 import BrandLogoNavy12SVG from 'public/assets/svg/brand-logo12-navy.png';
 import BrandLogo13SVG from 'public/assets/svg/brand-logo13.png';
 import BrandLogoNavy13SVG from 'public/assets/svg/brand-logo13-navy.png';
-import BrandLogo14SVG from 'public/assets/svg/brand-logo14.png';
-import BrandLogoNavy14SVG from 'public/assets/svg/brand-logo14-navy.png';
 import BrandLogo15SVG from 'public/assets/svg/brand-logo15.png';
 import BrandLogoNavy15SVG from 'public/assets/svg/brand-logo15-navy.png';
 import BrandLogo16SVG from 'public/assets/svg/brand-logo16.png';
 import BrandLogoNavy16SVG from 'public/assets/svg/brand-logo16-navy.png';
 import BrandLogo17SVG from 'public/assets/svg/brand-logo17.png';
 import BrandLogoNavy17SVG from 'public/assets/svg/brand-logo17-navy.png';
+import BrandLogo18SVG from 'public/assets/svg/brand-logo18.png';
+import BrandLogoNavy18SVG from 'public/assets/svg/brand-logo18-navy.png';
+import BrandLogo19SVG from 'public/assets/svg/brand-logo19.png';
+import BrandLogoNavy19SVG from 'public/assets/svg/brand-logo19-navy.png';
+import BrandLogo20SVG from 'public/assets/svg/brand-logo20.png';
+import BrandLogoNavy20SVG from 'public/assets/svg/brand-logo20-navy.png';
+import BrandLogo21SVG from 'public/assets/svg/brand-logo21.png';
+import BrandLogoNavy21SVG from 'public/assets/svg/brand-logo21-navy.png';
+import BrandLogo22SVG from 'public/assets/svg/brand-logo22.png';
+import BrandLogoNavy22SVG from 'public/assets/svg/brand-logo22-navy.png';
+import BrandLogo23SVG from 'public/assets/svg/brand-logo23.png';
+import BrandLogoNavy23SVG from 'public/assets/svg/brand-logo23-navy.png';
 
 import { Role, User } from './types';
 
@@ -95,19 +98,9 @@ export const BRAND_CARD_DUMMY = [
     url: 'http://www.spendit.kr/',
     website: 'http://www.spendit.kr/',
   },
+
   {
     id: 4,
-    brandImg: BrandLogo4SVG,
-    modalImg: BrandLogoNavy4SVG,
-    title: 'Tablero',
-    subTitle: 'Analytics & Software',
-    contents:
-      'Tablero offers a seamless dining experience for customers at restaurants, allowing them to order and pay via their app by scanning a QR code on the table.',
-    url: 'https://tablero.co.kr/',
-    website: 'https://tablero.co.kr/',
-  },
-  {
-    id: 5,
     brandImg: BrandLogo5SVG,
     modalImg: BrandLogoNavy5SVG,
     title: 'Bacon Realism',
@@ -117,30 +110,9 @@ export const BRAND_CARD_DUMMY = [
     url: 'https://www.baconrealism.com/',
     website: 'https://www.baconrealism.com/',
   },
+
   {
-    id: 6,
-    brandImg: BrandLogo6SVG,
-    modalImg: BrandLogoNavy6SVG,
-    title: 'Team Positive Zero',
-    subTitle: 'Content and IP',
-    contents:
-      'Team Positive Zero is an offline space-based contemporary brand IP developer with hit brands such as Platz, Munchies and Goodies, and Positive Zero Lounge.',
-    url: 'https://platz.kr/',
-    website: 'https://platz.kr/',
-  },
-  {
-    id: 7,
-    brandImg: BrandLogo7SVG,
-    modalImg: BrandLogoNavy7SVG,
-    title: 'Gold Plate',
-    subTitle: 'Food and Beverage',
-    contents:
-      'Gold Plate is a one-stop-shop for frozen food, offering the largest variety of products. They handle everything from development to branding and logistics and have 120+ OEM networks, 10+ killer IPs, and 15+ private label brands.',
-    url: 'http://goldplate.co.kr/',
-    website: 'http://goldplate.co.kr/',
-  },
-  {
-    id: 8,
+    id: 5,
     brandImg: BrandLogo8SVG,
     modalImg: BrandLogoNavy8SVG,
     title: 'Daily Vegan',
@@ -150,19 +122,9 @@ export const BRAND_CARD_DUMMY = [
     url: 'https://dailyvegan.co.kr/',
     website: 'https://dailyvegan.co.kr/',
   },
+
   {
-    id: 9,
-    brandImg: BrandLogo9SVG,
-    modalImg: BrandLogo9SVG,
-    title: 'Candy Plus',
-    subTitle: 'Analytics & Software',
-    contents:
-      'Candy Plus is a popular camera filter application with over 300 million downloads and 40 million monthly active users worldwide. Their app offers a wide range of high-quality filters and easy-to-use interface, making it a top choice for customizing photos and videos.',
-    url: 'https://apps.apple.com/kr/app/\n%EC%BA%94%EB%94%94%ED%94%8C%EB\n%9F%AC%EC%8A%A4-%EC%85%80%EC%B9%B4-%EB%B7\n%B0%ED%8B%B0-%EC%B9%B4%EB%A\n9%94%EB%9D%BC/id1589209843',
-    website: 'IOS APPSTORE',
-  },
-  {
-    id: 10,
+    id: 6,
     brandImg: BrandLogo10SVG,
     modalImg: BrandLogoNavy10SVG,
     title: 'Fact Block',
@@ -173,7 +135,7 @@ export const BRAND_CARD_DUMMY = [
     website: 'https://factblock.com/',
   },
   {
-    id: 11,
+    id: 7,
     brandImg: BrandLogo11SVG,
     modalImg: BrandLogoNavy11SVG,
     title: 'Quantrack',
@@ -184,7 +146,7 @@ export const BRAND_CARD_DUMMY = [
     website: 'https://quantrack.hoztec.com/',
   },
   {
-    id: 12,
+    id: 8,
     brandImg: BrandLogo12SVG,
     modalImg: BrandLogoNavy12SVG,
     title: 'Aiden Lab',
@@ -195,7 +157,7 @@ export const BRAND_CARD_DUMMY = [
     website: 'https://www.aidenlab.io/',
   },
   {
-    id: 13,
+    id: 9,
     brandImg: BrandLogo13SVG,
     modalImg: BrandLogoNavy13SVG,
     title: 'Mapia Company',
@@ -205,19 +167,9 @@ export const BRAND_CARD_DUMMY = [
     url: 'https://www.mapiacompany.com/',
     website: 'https://www.mapiacompany.com/',
   },
+
   {
-    id: 14,
-    brandImg: BrandLogo14SVG,
-    modalImg: BrandLogoNavy14SVG,
-    title: 'Mosiler',
-    subTitle: 'Analytics & Software',
-    contents:
-      'Mosiler is a premier driving companion service that provides transportation and other butler services on a subscription basis for high net worth individuals (HNWIs). Their subscription-based service provides a cost-effective and flexible solution for personalized and reliable transportation needs.',
-    url: 'http://www.mosiler.com/',
-    website: 'http://www.mosiler.com/',
-  },
-  {
-    id: 15,
+    id: 10,
     brandImg: BrandLogo15SVG,
     modalImg: BrandLogoNavy15SVG,
     title: 'Nabita World',
@@ -228,7 +180,7 @@ export const BRAND_CARD_DUMMY = [
     website: 'https://www.nabita.co.kr/',
   },
   {
-    id: 16,
+    id: 11,
     brandImg: BrandLogo16SVG,
     modalImg: BrandLogoNavy16SVG,
     title: 'Nexgen Power',
@@ -239,7 +191,7 @@ export const BRAND_CARD_DUMMY = [
     website: 'http://nexgenpwr.com/',
   },
   {
-    id: 17,
+    id: 12,
     brandImg: BrandLogo17SVG,
     modalImg: BrandLogoNavy17SVG,
     title: 'Opq',
@@ -248,5 +200,71 @@ export const BRAND_CARD_DUMMY = [
       'Opq is a pioneering online platform, providing a seamless browsing and purchasing experience for heritage furniture brands. With its advanced AI-based search engine and robust data collection and processing capabilities, Opq offers users an exploratory journey into the world of timeless furniture. Discover, browse, and effortlessly buy heritage furniture with Opq.',
     url: 'http://www.opq.ooo/',
     website: 'http://www.opq.ooo/',
+  },
+  {
+    id: 13,
+    brandImg: BrandLogo18SVG,
+    modalImg: BrandLogoNavy18SVG,
+    title: 'Kopher',
+    subTitle: 'Beauty & Cosmetics',
+    contents:
+      'KOPHER provides premium cosmetics and distinguishes itself by actively collaborating with brand owners at every stage, from initial concept to production, marketing, and export consultancy. Their in-house system guarantees products that truly embody the brand is essence and vision.',
+    url: 'http://www.bestinnovation.co.kr/',
+    website: 'http://www.bestinnovation.co.kr/',
+  },
+  {
+    id: 14,
+    brandImg: BrandLogo19SVG,
+    modalImg: BrandLogoNavy19SVG,
+    title: 'POTS Company',
+    subTitle: 'Lifestyle',
+    contents:
+      'POTS is dedicated to enhancing indoor spaces by fostering a harmonious relationship between people and plants, recognizing the profound impact of indoor environments on individuals, and promoting positivity and enjoyment through greenery. Under its brand, SundayPlanet47, POTS offers a range of products, including skincare, scents, and foods derived from plants.',
+    url: 'https://sundayplanet47.com/',
+    website: 'https://sundayplanet47.com/',
+  },
+  {
+    id: 15,
+    brandImg: BrandLogo20SVG,
+    modalImg: BrandLogoNavy20SVG,
+    title: 'SURF',
+    subTitle: 'Analytics & Software',
+    contents:
+      'SURF is a vital platform for content creators, seamlessly connecting music transactions across countries and aggregating a vast repository of valuable big data, revolutionizing the music industry by eliminating low-expertise, inefficient middlemen.',
+    url: 'https://discover.surf/',
+    website: 'https://discover.surf/',
+  },
+  {
+    id: 16,
+    brandImg: BrandLogo21SVG,
+    modalImg: BrandLogoNavy21SVG,
+    title: 'SLEEK',
+    subTitle: 'Analytics and Software',
+    contents:
+      'Sleek is committed to advancing global health with a product-oriented approach, primarily through its HiFive platform, aiming to develop a comprehensive "Wellness Super App" to serve both fitness operators and consumers.',
+    url: 'https://www.sleek.kr/',
+    website: 'https://www.sleek.kr/',
+  },
+  {
+    id: 17,
+    brandImg: BrandLogo22SVG,
+    modalImg: BrandLogoNavy22SVG,
+    title: 'Collectiv',
+    subTitle: 'Analytics and Software',
+    contents:
+      'Collectiv is a leading secondhand fashion platform dedicated to staying ahead of trends through in-depth market analysis. The platform provides users with curated and up-to-date fashion choices while promoting sustainability in the fashion industry.',
+    url: 'https://collectiv.kr/',
+    website: 'https://collectiv.kr/',
+  },
+  {
+    id: 18,
+    brandImg: BrandLogo23SVG,
+    modalImg: BrandLogoNavy23SVG,
+    title: 'TagHive',
+    subTitle: 'Analytics and Software',
+    contents:
+      'TagHive, a Samsung-funded education technology company, offers innovative solutions like Class Saathi, enabling seamless communication among students, teachers, parents, and administrators to enhance learning outcomes with data-driven insights. Adopted by over 5,000 schools in India and South Korea, it benefits more than 430,000 students.',
+    url: 'https://tag-hive.com/',
+    website: 'https://tag-hive.com/',
   },
 ];
